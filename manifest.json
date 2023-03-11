@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "twitch_carousel_remover",
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": ["twitch.tv"]
+}
+
